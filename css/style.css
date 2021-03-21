@@ -1,0 +1,37 @@
+#nav-bar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.form-text{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px
+}
+#nav-bar a{
+    display: inline-flex;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    text-decoration: none;
+    
+}
+#features p{
+    text-align: center;
+    display: block;
+}
+ #header-img{
+     position: fixed;
+     top: 0px;
+     display: inline-flex;
+     padding: 20px 10px;
+ }
+
+@media (max-width:700px){
+    * {
+        font-size: 100px;
+    }
+}
+
+#features{
+    display: flex;
+}
